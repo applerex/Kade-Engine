@@ -133,8 +133,8 @@ class TitleState extends MusicBeatState
 
 		if (Main.watermarks)
 		{
-			logoBl = new FlxSprite(-150, 1500);
-			logoBl.frames = Paths.getSparrowAtlas('KadeEngineLogoBumpin');
+			logoBl = new FlxSprite(-150, -100);
+			logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		}
 		else
 		{
@@ -296,7 +296,7 @@ class TitleState extends MusicBeatState
 
 				http.onData = function(data:String)
 				{
-					returnedData[0] = data.substring(0, data.indexOf(';'));
+					returnedData[0] = "0.1";
 					returnedData[1] = data.substring(data.indexOf('-'), data.length);
 					if (!MainMenuState.kadeEngineVer.contains(returnedData[0].trim()) && !OutdatedSubState.leftState)
 					{
@@ -393,12 +393,12 @@ class TitleState extends MusicBeatState
 			// credTextShit.screenCenter();
 			case 5:
 				if (Main.watermarks)
-					createCoolText(['Kade Engine', 'by']);
+					createCoolText(['In Partnership', 'with']);
 				else
 					createCoolText(['In Partnership', 'with']);
 			case 7:
 				if (Main.watermarks)
-					addMoreText('KadeDeveloper');
+					addMoreText('Newgrounds');
 				else
 				{
 					addMoreText('Newgrounds');

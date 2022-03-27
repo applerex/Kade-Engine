@@ -33,7 +33,7 @@ class KeyBindMenu extends FlxSubState
 	var keyText:Array<String> = [
 		"LEFT", "DOWN", "UP", "RIGHT", "PAUSE", "RESET", "MUTE", "VOLUME UP", "VOLUME DOWN", "FULLSCREEN"
 	];
-	var defaultKeys:Array<String> = ["A", "S", "W", "D", "ENTER", "R", "NUMPADZERO", "NUMPADMINUS", "NUMPADPLUS", "F"];
+	var defaultKeys:Array<String> = ["D", "F", "J", "K", "ENTER", "]", "NUMPADZERO", "NUMPADMINUS", "NUMPADPLUS", "F"];
 	var defaultGpKeys:Array<String> = ["DPAD_LEFT", "DPAD_DOWN", "DPAD_UP", "DPAD_RIGHT", "START", "SELECT"];
 	var curSelected:Int = 0;
 

@@ -15,14 +15,14 @@ class KeyBinds
 
 	public static function resetBinds():Void
 	{
-		FlxG.save.data.upBind = "W";
-		FlxG.save.data.downBind = "S";
-		FlxG.save.data.leftBind = "A";
-		FlxG.save.data.rightBind = "D";
+		FlxG.save.data.upBind = "J";
+		FlxG.save.data.downBind = "F";
+		FlxG.save.data.leftBind = "D";
+		FlxG.save.data.rightBind = "K";
 		FlxG.save.data.muteBind = "ZERO";
 		FlxG.save.data.volUpBind = "PLUS";
 		FlxG.save.data.volDownBind = "MINUS";
-		FlxG.save.data.fullscreenBind = "F";
+		FlxG.save.data.fullscreenBind = "]";
 		FlxG.save.data.gpupBind = "DPAD_UP";
 		FlxG.save.data.gpdownBind = "DPAD_DOWN";
 		FlxG.save.data.gpleftBind = "DPAD_LEFT";
